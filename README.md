@@ -1,9 +1,9 @@
 # Phishing_Detection_extention
 
-##Overview
+## Overview
 Phishing Link Detector is a Chrome extension designed to help users identify potentially malicious links in real-time. It utilizes the Google Safe Browsing API to check URLs and alerts users when a link is unsafe. The extension provides visual indicators, prevents automatic navigation, and includes a manual URL checker.
 
-##Features
+## Features
 ✅ Real-time phishing detection when hovering over links.
 ✅ Manual URL checking through the popup interface.
 ✅ Prevents automatic navigation to phishing sites.
