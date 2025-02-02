@@ -52,8 +52,28 @@ git clone https://github.com/your-repo/phishing-link-detector.git
 - Click the Toggle Button in the popup to enable/disable detection.
 - Status is saved and persists across sessions.
 
-## File Structure
+## Permissions Used
 
+- **storage**-Saves extension state (enabled/disabled status).
+- **scripting**-Injects scripts for scanning web pages.
+- **activeTab**-Allows interaction with currently opened tabs.
+- **host_permissions**-Grants access to https://safebrowsing.googleapis.com/ for URL checks.
+
+## Technologies Used
+
+- **JavaScript**-Core logic for link detection and API communication.
+- **Google Safe Browsing API**-Checks URLs for phishing threats.
+- **Chrome Extensions API**-Manages background tasks, messaging, and storage.
+- **HTML & CSS**-Creates the popup UI.
+
+## Future Enhancements
+
+- Add machine learning-based phishing detection using a Random Forest model.
+- Support for custom blacklists/whitelists of URLs.
+- Improve UI with more detailed reports on detected threats.
+
+## File Structure
+```
 📂 Phishing Link Detector
 ├── 📄 manifest.json        # Chrome extension configuration
 ├── 📄 background.js        # Handles API requests & message passing
@@ -63,3 +83,4 @@ git clone https://github.com/your-repo/phishing-link-detector.git
 ├── 📄 popup.js            # Handles popup interactions
 ├── 📄 styles.css          # Popup UI styling
 ├── 📄 icon.png            # Extension icon
+```
