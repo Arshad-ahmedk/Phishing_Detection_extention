@@ -11,8 +11,8 @@ Phishing Link Detector is a Chrome extension designed to help users identify pot
 ✅ Uses Google Safe Browsing API for accurate threat analysis.
 ✅ Toggleable functionality via the popup interface.
 
-##Installation
-1.Download the Source Code:
+## Installation
+1 Download the Source Code:
 
 Clone this repository or download the ZIP file.
 
