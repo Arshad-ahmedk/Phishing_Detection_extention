@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyAdmA5Sfu2Y_EXYH4tn7bWk8Ho3dkaj1Dw"; // Replace with your actual API key
+const API_KEY = "#######"; // Replace with your actual API key
 
 chrome.runtime.onInstalled.addListener(() => {
     chrome.storage.sync.set({ extensionEnabled: true });
